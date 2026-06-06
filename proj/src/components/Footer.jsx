@@ -26,7 +26,7 @@ const Footer = ({theme}) => {
             className='space-y-5 text-sm text-gray-700 dark:text-gray-400'>
                 <img src={theme === 'dark' ? assets.logo_dark : assets.logo} alt='' className='w-32 sm:w-44'/>
                 <p className='max-w-md'>
-                    From strategy to execution, we craft digital solutions that move your business forward.
+                    We transform ideas into powerful digital solutions, helping businesses grow with confidence.
                 </p>
 
                 <ul className='flex gap-8'>
@@ -62,7 +62,7 @@ const Footer = ({theme}) => {
                         viewport={{once:true}}
 
             className='flex justify-center pb-6 text-sm text-gray-500 sm:justify-between gap-4 flex-wrap'>
-                <p>Copyright 2026 @ NewGenAi - All Right Reserved.</p>
+                <p>Copyright 2026 @ Clientive - All Right Reserved.</p>
                 <div className='flex items-center justify-between gap-4'>
                     <img src={assets.facebook_icon} alt=''/>
                     <img src={assets.twitter_icon} alt=''/>

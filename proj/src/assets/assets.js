@@ -8,15 +8,15 @@ import microsoft_logo from './microsoft_logo.png'
 import zoom_logo from './zoom_logo.png'
 import rakuten_logo from './rakuten_logo.png'
 import coinbase_logo from './coinbase_logo.png'
-import ads_icon from './ads_icon.svg'
-import content_icon from './content_icon.svg'
-import marketing_icon from './marketing_icon.svg'
-import social_icon from './social_icon.svg'
+import web_icon from './web_icon.svg'
+import design_icon from './design_icon.svg'
+import app_icon from './app_icon.svg'
+import branding_icon from './branding_icon.svg'
 import menu_icon from './menu_icon.svg'
 import close_icon from './close_icon.svg'
-import work_mobile_app from './work_mobile_app.png'
-import work_fitness_app from './work_fitness_app.png'
-import work_dashboard_management from './work_dashboard_management.png'
+import web_dev from './web_dev.png'
+import app_dev from './app_dev.png'
+import brand from './brand.png'
 import email_icon from './email_icon.svg'
 import person_icon from './person_icon.svg'
 import facebook_icon from './facebook_icon.svg'
@@ -29,6 +29,16 @@ import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
+import vyshak from './vyshak.png'
+import karthik from './karthik.png'
+import aditya from './aditya.png'
+import krishnan from './krishnan.png'
+import karthikeyan from './karthikeyan.png'
+import neel from './neel.png'
+import abhiram from './abhiram.png'
+import vismaya from './vismaya.png'
+
+
 
 
 export const company_logos = [
@@ -47,15 +57,15 @@ const assets = {
   bgImage1,
   bgImage2,
   hero_img,
-  ads_icon,
-  content_icon,
-  marketing_icon,
-  social_icon,
+  web_icon,
+  design_icon,
+  app_icon,
+  branding_icon,
   menu_icon,
   close_icon,
-  work_mobile_app,
-  work_fitness_app,
-  work_dashboard_management,
+  web_dev,
+  app_dev,
+  brand,
   email_icon,
   person_icon,
   facebook_icon,
@@ -65,18 +75,26 @@ const assets = {
   logo_dark,
   menu_icon_dark,
   sun_icon,
-  moon_icon
+  moon_icon,
+  vyshak,
+  karthik,
+  neel,
+  karthikeyan,
+  aditya,
+  krishnan,
+  abhiram,
+  vismaya
 }
 
 export default assets
 
 export const teamData = [
-  { name: 'Haley Carter', title: 'CEO & founder', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200' },
-  { name: 'James Walker', title: 'Ads manager', image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200' },
-  { name: 'Jessica Morgan', title: 'Vice president', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop' },
-  { name: 'Ashley Bennett', title: 'Marketing & sales', image: 'https://randomuser.me/api/portraits/women/10.jpg' },
-  { name: 'Emily Parker', title: 'Content marketer', image: 'https://randomuser.me/api/portraits/women/11.jpg' },
-  { name: 'Ryan Mitchell', title: 'Content writer', image: 'https://randomuser.me/api/portraits/men/9.jpg' },
-  { name: 'Megan Brooks', title: 'Performance manager', image: 'https://randomuser.me/api/portraits/women/12.jpg' },
-  { name: 'Amber Foster', title: 'Senior writer', image: 'https://randomuser.me/api/portraits/women/14.jpg' },
+  { name: 'Neelakandan Nampoothiri', title: 'CEO & founder', image: neel },
+  { name: 'Aditya Vinod', title: 'Marketing Lead', image: aditya },
+  { name: 'Krishnan Nampoothiri', title: 'UI/UX Designer', image: krishnan },
+  { name: 'Karthik R', title: 'Operations Manager', image: karthik },
+  { name: 'Vysakh P', title: 'Project Manager', image: vyshak },
+  { name: 'Karthikeyan TV', title: 'Developer', image: karthikeyan },
+  { name: 'Abhiram J', title: 'Web Developer', image: abhiram },
+  { name: 'Vismaya Gawri Krishnan', title: 'App Developer', image: vismaya },
 ]

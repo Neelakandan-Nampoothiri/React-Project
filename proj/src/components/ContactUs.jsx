@@ -50,7 +50,7 @@ const ContactUs = () => {
     
     id='contact-us' className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 dark:text-white text-gray-700 pt-30'>
         <div>
-            <Title title='Reach out to us' desc='From strategy to execution, we craft digital solutions that move your business forward.'/> 
+            <Title title='Reach out to us' desc='Share your vision with us, and together we create digital solutions that drive growth, engagement and lasting impact.'/> 
 
             <motion.form 
 
@@ -82,14 +82,14 @@ const ContactUs = () => {
 
                  <div className='sm:col-span-2'>
                     <p className='text-sm font-medium mb-2'>
-                            Message
+                            Project Details
                     </p>
-                    <textarea name="message" rows={8} placeholder='Enter your message' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600'/>
+                    <textarea name="message" rows={8} placeholder='Tell us about your project' className='w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600'/>
                     
                 </div>
 
                 <button type="submit" className='w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:scale-103'>
-                    Submit <img src={assets.arrow_icon} className='w-4' alt=''/>
+                    Send Inquiry <img src={assets.arrow_icon} className='w-4' alt=''/>
                 </button>
 
             </motion.form>

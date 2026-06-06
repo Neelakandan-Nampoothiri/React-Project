@@ -8,21 +8,22 @@ const OurWork = () => {
 
     const workdata = [
         {
-            title: 'Mobile app Marketing',
-            description: 'we turn bold ideas into powerful digital solutions that connect,  engage..',
-            image : assets.work_mobile_app
+            title: 'Clientive',
+            description: 'A service-driven platform for modern client solutions.',
+            image : assets.web_dev
+
 
         },
         {
-            title: 'Dashboard Management',
-            description: 'we help you execute your plan and deliver results.',
-            image : assets.work_dashboard_management
+            title: 'Travel App',
+            description: 'Simplifying travel business management and operations.',
+            image : assets.app_dev
 
         },
         {
-            title: 'Fitness app promotion',
-            description: 'we help you create a marketing strategy that drives result.',
-            image : assets.work_fitness_app
+            title: 'Adolescence',
+            description: 'Distinctive brand identity crafted to create a lasting impact.',
+            image : assets.brand
 
         },
 
@@ -38,7 +39,7 @@ const OurWork = () => {
         id='our-work' className='flex flex-col items-center gap-7 px-4
         sm-px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white '>
 
-            <Title title='Our latest work' desc='Browse our portfolio of innovative digital projects that showcase creativity,performance, and results.'/>
+            <Title title='Featured Projects' desc='Explore the digital solutions we crafted to help businesses grow, innovate, and achieve their goals.'/>
             <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl'>
 
                 {
