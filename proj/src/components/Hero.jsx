@@ -76,7 +76,13 @@ const Hero = () => {
           <div className='relative w-full max-w-3xl lg:max-w-none sm:mr-20'>
             <div className='absolute -left-10 top-10 h-32 w-32 rounded-full bg-cyan-400/20 blur-3xl' />
             <div className='absolute -right-10 bottom-0 h-36 w-36 rounded-full bg-blue-500/10 blur-3xl' />
-            <img src={assets.hero_img} className='relative w-full max-w-3xl sm:w-200' alt='' />
+            <motion.img
+              src={assets.hero_img}
+              className='relative w-full max-w-3xl sm:w-200'
+              alt=''
+              animate={{ y: [0, -14, 0, 10, 0], rotate: [0, 0.8, 0, -0.8, 0] }}
+              transition={{ duration: 12, ease: 'easeInOut', repeat: Infinity }}
+            />
             <img src={assets.bgImage1} className='absolute -top-40 -right-40 hidden sm:block -z-10 dark:hidden' alt='' />
           </div>
         </motion.div>
