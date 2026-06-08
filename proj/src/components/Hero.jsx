@@ -80,7 +80,7 @@ const Hero = () => {
               src={assets.hero_img}
               className='relative w-full max-w-3xl sm:w-200'
               alt=''
-              animate={{ y: [0, -14, 0, 10, 0], rotate: [0, 0.8, 0, -0.8, 0] }}
+              animate={{ y: [0, -20, 0, 15, 0], rotate: [0, 1, 0, -1, 0] }}
               transition={{ duration: 12, ease: 'easeInOut', repeat: Infinity }}
             />
             <img src={assets.bgImage1} className='absolute -top-40 -right-40 hidden sm:block -z-10 dark:hidden' alt='' />
